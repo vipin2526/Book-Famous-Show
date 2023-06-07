@@ -1,0 +1,71 @@
+.main {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    gap: 20px;
+    flex-direction: column;
+    background-image: url(back2.jpeg);
+}
+
+.show_box {
+    height: auto;
+    width: 80vw;
+    background-color: rgb(207, 207, 207);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.other_details {
+    display: grid;
+    justify-items: start;
+    justify-content: center;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    background-color: rgb(225, 47, 11);
+    color: white;
+    font-size: 25px;
+    font-family: ' Courier New';
+}
+
+
+
+.show_details {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-shrink: 0;
+    /* background-color: black; */
+    background-image: url(back3.avif);
+    color: rgb(0, 0, 0);
+    background-size: cover;
+
+    .tital {
+        font-size: 50px;
+    }
+}
+
+.ticketform {
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(back.jpg);
+}
+
+.ticketform>.container {
+    max-width: 800px;
+    min-height: 60vh;
+    background-color: white;
+}
