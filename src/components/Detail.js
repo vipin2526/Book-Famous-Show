@@ -21,7 +21,7 @@ export default function Detail() {
                             <div className="category"> <h4>Category: {show.genres.map(e => (e + ' '))} </h4></div>
                         </div>
                         <div> <h4>Summary:<div dangerouslySetInnerHTML={{ __html: show.summary }} /></h4></div>
-                        <Link to='Book-Famous-Show/bookshow' state={{ show }}> <button className="book_ticket mx-2">Book Ticket</button></Link>
+                        <Link to='/bookshow' state={{ show }}> <button className="book_ticket mx-2">Book Ticket</button></Link>
                     </div>
                 </div>
             </div >

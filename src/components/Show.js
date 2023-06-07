@@ -4,10 +4,10 @@ export default function Show(props) {
     const show = props.data.show;
     const navigate = useNavigate();
     function to_aboutshow() {
-        navigate('Book-Famous-Show/aboutshow', { state: { show } });
+        navigate('/aboutshow', { state: { show } });
     }
     function to_bookshow() {
-        navigate('Book-Famous-Show/bookshow', { state: { show } });
+        navigate('/bookshow', { state: { show } });
     }
     return (
         <div className="show_box container-float">
