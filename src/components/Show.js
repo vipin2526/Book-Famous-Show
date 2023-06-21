@@ -9,10 +9,16 @@ export default function Show(props) {
     function to_bookshow() {
         navigate('/bookshow', { state: { show } });
     }
+    let image;
+    if (show.image)
+        image = show.image.medium;
+    else
+        image = "/";
+
     return (
         <div className="show_box container-float">
             <div className="row">
-                <div className="col-md-4 "><img src={show.image.medium} alt="not found" /></div>
+                <div className="col-md-4 "><img src={image} alt="not found" /></div>
                 <div className="col-md-8 detail">
                     <div className="tital"><h1>{show.name}</h1></div>
                     <div className="other_details">

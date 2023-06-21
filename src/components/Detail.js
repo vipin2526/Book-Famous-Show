@@ -4,14 +4,18 @@ export default function Detail() {
     const location = useLocation();
     const show = location.state.show;
     // console.log(location.state.show);
-
+    let image;
+    if (show.image)
+        image = show.image.original;
+    else
+        image = "/";
     return (
         <div className="show_details">
             <div className="tital">{show.name}</div>
             <div className="container">
                 <div className="row">
                     <div className="col-md-4 ">
-                        <img src={show.image.original} alt="not found" height="600px" />
+                        <img src={image} alt="not found" height="600px" />
                     </div>
                     <div className="col-lg-2"></div>
                     <div className="col-lg-6 detail">
