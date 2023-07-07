@@ -1,0 +1,57 @@
+.header {
+    min-height: 5rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    background-color: #0000009e;
+}
+.logo{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    min-height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchBox {
+    display: flex;
+    position: relative;
+    margin-top: 15px;
+}
+
+.searchBox>input {
+    height: 2.7rem;
+    width: 100%;
+    border-radius: 30px;
+    position: absolute;
+    background-color: black;
+    border: .5px solid rgb(102, 102, 102);
+    font-size: 1.5rem;
+    color: white;
+    padding-left: 15px;
+}
+
+.searchBtn {
+
+    height: 2.7rem;
+    width: 4rem;
+    background-color: rgb(19, 17, 18);
+    background-image: url('./search.png');
+    background-size: 2.3rem;
+    background-position: 10px;
+    background-repeat: no-repeat;
+    position: absolute;
+    border-top-right-radius: 30px;
+    border-end-end-radius: 30px;
+    right: 0;
+    border: .5px solid rgb(102, 102, 102);
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .logo{
+        font-size: 1.1rem;
+        
+    }
+  }

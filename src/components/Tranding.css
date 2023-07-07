@@ -3,7 +3,6 @@
     width: 100%;
     display: flex;
     align-items: center;
-    padding-top: 50px;
     gap: 20px;
     flex-direction: column;
     background-image: url(back2.jpeg);
@@ -29,10 +28,10 @@
     justify-content: center;
 }
 
-button {
+.book_ticket, .get_details{
     height: 50px;
     width: 150px;
-    background-color: rgb(225, 47, 11);
+    background-color: rgb(11, 36, 225);
     color: white;
     font-size: 25px;
     font-family: ' Courier New';
