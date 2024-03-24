@@ -1,5 +1,5 @@
 # Movie and Show Ticket Booking React App 
-Live Project Link ---> https://xmartcoder.github.io/Book-Famous-Show/
+Live Project Link ---> https://vipin2526.github.io/Book-Famous-Show/
 
 The Movie and Show Ticket Booking React App is a web application built with React that allows users to book movie and show tickets. Users can browse available movies and shows, select seats, and make payments to secure their tickets.
 
@@ -18,7 +18,7 @@ To run the Movie and Show Ticket Booking React App locally, follow these steps:
 1. Clone the repository:
 
    ```
-   git clone https://github.com/xmartcoder/Book-Famous-Show.git
+   git clone https://github.com/vipin2526/Book-Famous-Show.git
    ```
 
 2. Navigate to the project directory:
